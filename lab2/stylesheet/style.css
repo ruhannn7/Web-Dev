@@ -11,13 +11,9 @@ html{
     text-align: center;
     color: white;
     margin-top: 0;
-    box-shadow: 0 4px 10px black;
     border-radius: 8px;
-    
 }
-#main h1{
-    text-shadow: 2px 2px 4px black;
-}
+
 #main nav{
     color: white;
     background-color: #007bff;
@@ -38,9 +34,6 @@ html{
     color: white;
     text-decoration: none;
 }
-#main ul li a:hover{
-    color: #f0f0f0;
-}
 
 #hero{
     text-align: center;
@@ -53,14 +46,12 @@ html{
     padding: 10px;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
-    text-shadow: 1px 1px 2px black;
 }
 #hero p{
     text-align: center;
     background-color: white;
     display: inline-block;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 1);
+    
 }
 
 
@@ -76,8 +67,6 @@ html{
     margin-top: 10px;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
-    text-shadow: 1px 1px 2px black;
 }
 #about p{
     background-color: white;
@@ -85,14 +74,12 @@ html{
     display: inline;
     padding: 10px 20px;
     max-width: 80%;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 1);
 }
 #about  img{
     border-radius: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
 }
 
 
@@ -104,15 +91,12 @@ html{
     max-width: 600px;
     margin: 40px auto;
     padding: 10px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
-    text-shadow: 1px 1px 2px black;
  }
  #projects ul{
     display: contents;
     margin: 10px;
     color: black;
     text-align: center;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 1);
  }
  #projects li{
     border: 25px;
@@ -123,7 +107,6 @@ html{
     margin-right: 25%;
     padding: 30px;
     list-style-type: none;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 1);
  }
 
 
@@ -135,8 +118,6 @@ html{
     margin: 40px auto;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
-    text-shadow: 1px 1px 2px black;
 
     }
 #skills table{
@@ -148,13 +129,10 @@ html{
     width: 90%;
     text-align: center;
     font-size: 1.1;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 1);
-    
 }
 #skills thead{
     background-color: #007bff;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px black;
     font-size: x-large;
 }
 #skills tbody{
@@ -173,15 +151,12 @@ html{
     margin: 40px auto;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 1px 2px 4px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
 }
 #contact h2{
     margin-bottom: 30px;
     border-radius: 8px;
     background-color: #007bff;
     color: white;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 1);
 }
 #contact form label{
     width: 100px;
@@ -192,7 +167,6 @@ html{
 #contact form textarea{
 border-color: #007bff;
 outline: none;
-box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
 }
 #contact form textarea{
     border: 2;
@@ -211,10 +185,6 @@ box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
     border-radius: 8px;
     font-size: 18px;
     cursor: pointer;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
-}
-#contact button:hover{
-    background-color: #0056b3;
 }
 
 
@@ -223,7 +193,6 @@ footer p{
     background-color: #007bff;
     color: white;
     border-radius: 8px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
 }
 
 
@@ -243,8 +212,4 @@ footer p{
     font-weight: bold;
     font-size: 24px;
     cursor: pointer;
-    box-shadow: 0 4px 8px black;
-}
-#backtotop:hover{
-    background-color: #0056b3;
 }
