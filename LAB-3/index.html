@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ruhan Dogra — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+
+  <header id="main">
+    <div class="brand">Ruhan Dogra</div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-left">
+        <h1 class="hero-title">Welcome to My Portfolio!</h1>
+        <p class="hero-intro">
+          Hi, I'm <strong>Ruhan Dogra</strong> — 
+<span class="animated-text">a Web Development student</span> 
+learning HTML, CSS and JavaScript.
+
+        </p>
+      </div>
+
+      <div class="hero-right">
+        <!-- profile image -->
+        <img src="portfolioimage/image.jpg" alt="Ruhan profile" class="profile">
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a CSE student specializing in Cyber Security. I enjoy practicing web development by building small projects.
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>My Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Registration Form</h3>
+          <p>A simple registration form to practice inputs and validation.</p>
+        </article>
+
+        <article class="project-card">
+          <h3>My Favorite Websites</h3>
+          <p>A list of favorite websites with links and short notes.</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Complex Tables</h3>
+          <p>A table showing student test grades and totals.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <strong>HTML</strong>
+          <div>Beginner</div>
+        </div>
+
+        <div class="skill-card">
+          <strong>CSS</strong>
+          <div>Beginner</div>
+        </div>
+
+        <div class="skill-card">
+          <strong>JavaScript</strong>
+          <div>Learning</div>
+        </div>
+      </div>
+
+      <!-- Table fallback -->
+      <table class="skills-table" aria-label="Skills table">
+        <thead>
+          <tr><th>S.No</th><th>Skill</th><th>Level</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>HTML</td><td>Beginner</td></tr>
+          <tr><td>2</td><td>CSS</td><td>Beginner</td></tr>
+          <tr><td>3</td><td>JavaScript</td><td>Learning</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post" class="contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write a message"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Ruhan | All Rights Reserved</p>
+  </footer>
+
+  <!-- Back to top -->
+  <a href="#hero" class="backtotop">Back To Top</a>
+
+</body>
+</html>
