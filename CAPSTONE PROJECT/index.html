@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="nav-bar">
+            <h1 class="logo">Foodie</h1>
+            <nav class="main-nav">
+                <a href="#categories">Categories</a>
+                <a href="#restaurants">Restaurants</a>
+                <a href="#offers">Offers</a>
+            </nav>
+            <div class="auth-links">
+                <button class="btn login">Login</button>
+                <button class="btn signup">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Delicious food, delivered to you</h2>
+                    <p>Order from your favorite restaurants quickly and easily.</p> <br>
+                    <button class="btn primary-btn">Order Now</button>
+                </div>
+                <img src="images/hero-food.jpg" alt="Food Platter" class="hero-img">
+            </div>
+
+            <form class="search-form">
+                <input type="text" placeholder="Enter your location">
+                <select>
+                    <option>All Categories</option>
+                    <option>Pizza</option>
+                    <option>Burger</option>
+                    <option>Sushi</option>
+
+                </select>
+               <a href="#categories" class="btn search-btn">Search</a>
+            </form>
+        </section>
+
+        <section id="categories" class="section categories">
+            <h3>Browse by Category</h3>
+            <div class="category-grid">
+                <article class="category-card"><span>🍕</span><p>Pizza</p></article>
+                <article class="category-card"><span>🍔</span><p>Burgers</p></article>
+                <article class="category-card"><span>🍣</span><p>Sushi</p></article>
+                <article class="category-card"><span>🌶️</span><p>Indian</p></article>
+                <article class="category-card"><span>🍜</span><p>Chinese</p></article>
+            </div>
+        </section>
+
+        <section id="restaurants" class="section restaurants">
+            <h3>Featured Restaurants</h3>
+            <div class="restaurant-grid">
+                <article class="rest-card">
+                    <img src="images/rest-1.jpg" alt="Pizza Palace">
+                    <div class="rest-info">
+                        <h4>Pizza Palace</h4>
+                        <p>Pizza, Italian</p>
+                        <div class="rating">⭐ 4.8</div>
+                    </div>
+                </article>
+                <article class="rest-card">
+                    <img src="images/rest-2.jpg" alt="Burger Hub">
+                    <div class="rest-info">
+                        <h4>Burger Hub</h4>
+                        <p>Fast Food</p>
+                        <div class="rating">⭐ 4.6</div>
+                    </div>
+                </article>
+                <article class="rest-card">
+                    <img src="images/rest-3.jpg" alt="Sushi World">
+                    <div class="rest-info">
+                        <h4>Sushi World</h4>
+                        <p>Japanese</p>
+                        <div class="rating">⭐ 4.7</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="offers" class="section offers-section">
+            <h3>Promo Offers</h3>
+            <div class="promo-flex">
+                <div class="promo-card">
+                    <i class="fas fa-tags"></i>
+                    <p>30% OFF first order!</p>
+                </div>
+                <div class="promo-card">
+                    <i class="fas fa-truck"></i>
+                    <p>Free delivery over $20</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-group">
+                    <h4>About Foodie</h4>
+                    <a href="#">Contact</a>
+                    <a href="#">Careers</a>
+                </div>
+                <div class="footer-group">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+</body>
+</html>
