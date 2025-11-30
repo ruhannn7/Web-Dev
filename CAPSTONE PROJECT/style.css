@@ -29,6 +29,11 @@ h1, h2, h3, h4 {
     background: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
 }
 
 .nav-bar {
@@ -44,10 +49,22 @@ h1, h2, h3, h4 {
     font-size: 1.5em;
 }
 
+.logo:hover {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
 .main-nav a {
     text-decoration: none;
     color: #343a40;
     margin-left: 20px;
+    text-decoration: none;
+    color: #343a40;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+.main-nav a:hover {
+    color: #ff4560;
 }
 
 .btn {
@@ -61,6 +78,18 @@ h1, h2, h3, h4 {
 .login {
     background: white;
     border: 1px solid #343a40;
+}
+/* Login Button Hover */
+.login:hover {
+    background: #f8f8f8;
+    border-color: #ff4560; 
+    color: #ff4560; 
+}
+
+/* Sign Up/Primary Button Hover */
+.signup:hover, .primary-btn:hover, .search-btn:hover {
+    background: #e03b54;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .signup, .primary-btn {
@@ -99,6 +128,7 @@ h1, h2, h3, h4 {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding-top: 40px;
 }
 
 .search-form {
@@ -148,11 +178,14 @@ h1, h2, h3, h4 {
     padding: 20px 10px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.3s ease-in-out;
 }
 
 .category-card:hover {
     transform: translateY(-3px);
+    box-shadow: 
+        0 4px 10px rgba(0, 0, 0, 0.1),
+        0 0 15px rgba(255, 69, 96, 0.6);
 }
 
 .category-card span {
