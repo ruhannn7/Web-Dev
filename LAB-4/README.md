@@ -1,5 +1,5 @@
 This project is a simple JavaScript quiz game that runs entirely in the browser console. 
-It uses a quizQuestions array to store questions. The runQuiz() function iterates through questions using a for loop, collects answers with prompt(), and provides feedback with alert().
+It uses a quizQuestions array to store questions. The runQuiz function iterates through questions using a for loop, collects answers with prompt, and provides feedback with alert.
 The game tracks the score and displays the final result at the end.
 
 OUTPUT :-
